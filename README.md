@@ -6,7 +6,7 @@ kubernetes-dashboard boostrap
 
 ### 1. exec `make init`
 
-### 2. exec `kubectl proxy`
+### 2. exec `make proxy`
 
 ### 3. open `http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/`
 
